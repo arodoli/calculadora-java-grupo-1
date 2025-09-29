@@ -1,4 +1,9 @@
 public class Calculadora {
+
+    public int resta(int a, int b){
+        return a-b;
+    }
+
     /**
      * Método Division con control de división por cero
      * @param dividendo
@@ -19,3 +24,4 @@ public class Calculadora {
         return a+b;
     }
 }
+
